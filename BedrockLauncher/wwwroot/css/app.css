@@ -1,0 +1,134 @@
+﻿html,
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    user-select: none;
+}
+
+* {
+    scroll-behavior: smooth;
+    transition: all 0.1s;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+h1:focus {
+    outline: none;
+}
+
+a,
+.btn-link {
+    color: #0071c1;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(30, 30, 30);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(40, 40, 40);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgb(30, 30, 30);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(45, 45, 45);
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.modal {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(15, 15, 15);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+}
+
+.modal h3 {
+    margin-top: 0;
+    color: rgb(200, 200, 200);
+    font-weight: 100;
+}
+
+.modal button span {
+    color: rgb(255, 55, 55);
+}
+
+.modal div:first-child {
+    padding-bottom: 0;
+}
+
+.modal .bm-content {
+    color:gray;
+}
+
+.button {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(30, 30, 30);
+    color: rgb(200, 200, 200);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(41, 41, 41);
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(35, 35, 35);
+}

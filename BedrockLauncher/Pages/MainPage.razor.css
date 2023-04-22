@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: rgb(25, 25, 25);
+    width: 10rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    color: rgb(200, 200, 200);
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    overflow-y: auto;
+    display: flex;
+}
+
+.mods {
+    margin-left: 10rem;
+    width: 100%;
+}
+.mod-list {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 1em;
+}

@@ -1,0 +1,30 @@
+<div>
+    <p>@Message</p>
+    
+    <div style="display: flex; gap: 0.5rem;">
+        @foreach (var (name, callback) in Buttons)
+        {
+            <button class="button" style="margin-top: 0.5rem;" @onclick="
+                () => { 
+                    Modal.CloseAsync(); 
+                    callback.InvokeAsync(); 
+                }"
+            >@name</button>
+        }
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public List<(string, EventCallback)> Buttons { get; set; } = new()
+    {
+        ("Okay", EventCallback.Empty)
+    };
+    
+    [Parameter]
+    public string? Message { get; set; }
+    
+    [CascadingParameter]
+    private BlazoredModalInstance Modal { get; set; } = default!;
+}

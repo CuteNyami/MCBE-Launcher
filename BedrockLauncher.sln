@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedrockLauncher", "BedrockLauncher\BedrockLauncher.csproj", "{5833A480-E26E-4286-BB0A-99709427768C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5833A480-E26E-4286-BB0A-99709427768C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5833A480-E26E-4286-BB0A-99709427768C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5833A480-E26E-4286-BB0A-99709427768C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5833A480-E26E-4286-BB0A-99709427768C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E3A9F4F-D378-4EB9-93D0-A8A89AB43A17}
+	EndGlobalSection
+EndGlobal

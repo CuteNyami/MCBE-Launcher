@@ -1,0 +1,17 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+
+<main>
+    @Body
+</main>
+
+@code
+{
+    [CascadingParameter]
+    public IModalService ModalService { get; set; } = default!;
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        MainWindow.Server!.StartServer(ModalService);
+    }
+}

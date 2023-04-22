@@ -1,0 +1,17 @@
+@using BedrockLauncher.Mods
+
+<div class="card">
+    <div class="card-content">
+        <p class="card-text">@Mod.Name</p>
+        <p class="card-description">@Mod.Description</p>
+        <div class="card-buttons">
+            <button class="button">Select</button>
+            <button class="button">Edit</button>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    [Parameter] public Module Mod { get; set; } = null!;
+}

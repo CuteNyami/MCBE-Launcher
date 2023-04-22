@@ -1,0 +1,22 @@
+﻿.card {
+    padding: 1em;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    color: rgb(200, 200, 200);
+    border-radius: 5px;
+    gap: 0.5rem;
+}
+
+.card-description {
+    margin-top: 0.4rem;
+    font-size: 12px;
+    color: gray;
+}
+
+.card-buttons {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
