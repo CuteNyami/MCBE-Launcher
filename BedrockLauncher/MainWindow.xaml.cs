@@ -10,6 +10,7 @@ using System;
 using BedrockLauncher.Utils;
 using System.Diagnostics;
 using System.Linq;
+using LauncherAPI;
 
 namespace BedrockLauncher
 {
